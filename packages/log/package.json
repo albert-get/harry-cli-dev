@@ -1,6 +1,7 @@
 {
-  "name": "@harry-cli-dev/format-path",
+  "name": "@harry-cli-dev/log",
   "version": "0.0.0",
+  "private": true,
   "description": "> TODO: description",
   "author": "harry <harry@163.com>",
   "homepage": "",
@@ -18,5 +19,8 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "npmlog": "^4.1.2"
   }
 }

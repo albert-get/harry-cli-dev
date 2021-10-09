@@ -1,7 +1,9 @@
 {
+  "npmClient": "yarn",
   "useWorkspaces": true,
   "packages": [
     "packages/*"
   ],
+  "private":true,
   "version": "0.0.0"
 }

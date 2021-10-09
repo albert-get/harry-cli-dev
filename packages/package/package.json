@@ -1,6 +1,7 @@
 {
-  "name": "@harry-cli-dev/format-path",
+  "name": "@harry-cli-dev/package",
   "version": "0.0.0",
+  "private": true,
   "description": "> TODO: description",
   "author": "harry <harry@163.com>",
   "homepage": "",
@@ -18,5 +19,14 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@harry-cli-dev/format-path": "^0.0.0",
+    "@harry-cli-dev/get-npm-info": "^0.0.0",
+    "@harry-cli-dev/utils": "^0.0.0",
+    "fs-extra": "^10.0.0",
+    "npminstall": "^4.11.0",
+    "path-exists": "^4.0.0",
+    "pkg-dir": "^5.0.0"
   }
 }

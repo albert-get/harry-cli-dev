@@ -2,6 +2,7 @@
   "workspaces": [
     "packages/*"
   ],
+  "private":true,
   "name": "harry-cli-dev",
   "version": "1.0.0",
   "description": "",
